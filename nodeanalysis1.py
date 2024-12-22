@@ -16,4 +16,4 @@ A = np.array([
 ])
 b = np.array([[55.,0,0,0,0,0,0,0,0,0]]).transpose()
 x = np.dot(np.linalg.inv(A),b)
-print(x)
+print("e = {0} V".format(x))
