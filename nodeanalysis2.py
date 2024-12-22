@@ -13,4 +13,4 @@ A = np.array([
     [0,0,0,0,0,0,0,1]])
 b = np.array([[-1,0,0,0,0,0,0,0]]).transpose()
 x = np.dot(np.linalg.inv(A),b)
-print(x)
+print("R_eq = {0} ohm".format(x[0,0]))
